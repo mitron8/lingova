@@ -13,8 +13,8 @@ const courses = [
     title: "German B1",
     subtitle: "Intermediate",
     duration: "4 Months",
-    level: "B1 Level",
-    drag:"/doodles/b1.png"
+    level: "B1 Level &ebsp;",
+    drag:"/doodles/bone.png"
   },
   {
     title: "English",

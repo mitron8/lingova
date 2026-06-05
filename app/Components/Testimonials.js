@@ -43,7 +43,7 @@ const Testimonials = () => {
 
      
 
-      {/* Heading */}
+      {/* Heading  
       <div className="text-center max-w-3xl mx-auto">
         <span className="font-bold text-red-700 uppercase tracking-widest">
           Testimonials
