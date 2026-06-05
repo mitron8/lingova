@@ -1,5 +1,8 @@
 "use client";
 
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+
 import {
   Clock3,
   IndianRupee,
@@ -46,8 +49,54 @@ const courses = [
 ];
 
 export default function FeaturedCourses() {
+  const sectionRef = useRef(null);
+
+  const isInView = useInView(sectionRef, {
+    amount: 0.3,
+    once: false,
+  });
+
   return (
-    <section className="relative overflow-hidden py-24 bg-[#FEFAF3]">
+    <section
+      ref={sectionRef}
+      className="relative overflow-hidden py-24 bg-[#FEFAF3]"
+    >
+      {/* Peeking Dragon */}
+      <motion.div
+        className="
+          hidden
+          xl:block
+          absolute
+          left-0
+          top-1/2
+          -translate-y-1/2
+          z-30
+        "
+        initial={{ x: -10 }}
+        animate={
+          isInView
+            ? {
+                x: [-400, -120, -120, -400],
+                y: [0, -4, 0, 0],
+              }
+            : {
+                x: -280,
+              }
+        }
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          repeatDelay: 10,
+          ease: "easeInOut",
+        }}
+      >
+        <img
+          src="/doodles/hellodrag.png"
+          alt="Dragon"
+          className="w-70 rotate-90"
+        />
+      </motion.div>
+
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -208,7 +257,6 @@ export default function FeaturedCourses() {
           ))}
         </div>
 
-        {/* Bottom doodle space */}
         <div className="flex justify-center mt-16"></div>
       </div>
     </section>
