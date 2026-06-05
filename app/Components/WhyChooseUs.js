@@ -86,8 +86,7 @@ export default function WhyChooseUs() {
                   min-h-[260px]
                   transition-all
                   duration-300
-                  hover:-translate-y-2
-                  hover:shadow-xl
+                  hover:-translate-y-2 hover:shadow-[8px_8px_0px_#000]
                 "
                 style={{
                   backgroundImage: "",

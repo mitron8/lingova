@@ -5,6 +5,10 @@ import AboutSection from './Components/AboutSection'
 import Tail from './Components/Tail'
 import FeaturedCourses from './Components/FeaturedCourses'
 import WhyChooseUs from './Components/WhyChooseUs'
+import Testimonials from './Components/Testimonials'
+import CTA from './Components/CTA'
+import Footer from './Components/Footer'
+
 
 const page = () => {
   return (
@@ -14,8 +18,11 @@ const page = () => {
       <Tail/>
       <AboutSection/>
       <FeaturedCourses/>
-      <WhyChooseUs/>
       
+      <WhyChooseUs/>
+      <Testimonials/>
+      <CTA/>
+      <Footer/>
       
     </div>
   )

@@ -33,7 +33,7 @@ export default function AboutSection() {
           <img
             src="/doodles/bridge.png"
             alt="Bridge"
-            className="w-full max-w-4xl object-contain"
+            className="w-full h-[300px] max-w-4xl object-contain"
           />
 
         </div>
@@ -44,7 +44,7 @@ export default function AboutSection() {
           {/* Dragon */}
           <div className="hidden lg:block absolute -left-4 bottom-4 z-30">
             <img
-              src="/doodles/studydrag.png"
+              src="/doodles/hellodrag.png"
               alt="Dragon"
               className="w-36 object-contain"
             />

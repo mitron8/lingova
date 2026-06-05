@@ -34,7 +34,7 @@ const Hero = () => {
         {/* Right Image */}
         <div className="flex justify-center lg:justify-end">
           <Image
-            src="/prime/Heromain.png"
+            src="/doodles/heromain.png"
             alt="Lingova Language Learning"
             width={650}
             height={650}

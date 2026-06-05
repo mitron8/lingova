@@ -6,37 +6,33 @@ const courses = [
     subtitle: "Beginner",
     duration: "3 Months",
     level: "A1 Level",
-    drag:"/doodles/greendarg.png"
+    drag:"/doodles/a1.png"
   },
   {
     title: "German B1",
     subtitle: "Intermediate",
     duration: "4 Months",
     level: "B1 Level",
-    drag:"/doodles/bluedrag.png"
+    drag:"/doodles/b1.png"
   },
   {
-    title: "Spoken English",
+    title: "English",
     subtitle: "Mastery",
     duration: "2 Months",
     level: "Daily Classes",
-    drag:"/doodles/pinkdrag.png"
+    drag:"/doodles/eng.png"
   },
 ];
 
 export default function FeaturedCourses() {
   return (
-    <section className="relative overflow-hidden py-28">
+    <section className="relative overflow-hidden ">
 
       {/* Top Left Doodle */}
-      <div className="absolute left-10 top-10">
-       <img src="/doodles/bush.png"></img>
-      </div>
+      
 
       {/* Top Right Doodle */}
-      <div className="absolute right-10 top-20">
-        <img src="/doodles/bush.png"></img>
-      </div>
+    
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -67,15 +63,15 @@ export default function FeaturedCourses() {
               key={index}
               className="
                 relative
-                h-[320px]
+                h-[317px]
                 
-                
-                
+                w-[373px]
+                rounded-2xl
                 overflow-hidden
                 transition-all
                 duration-300
-                hover:-translate-y-2
-                hover:shadow-xl
+                hover:-translate-y-2 hover:shadow-[8px_8px_0px_#000]
+                
               "
               style={{
                 backgroundImage: "url('/cards/cardbg.png')",
@@ -145,10 +141,7 @@ export default function FeaturedCourses() {
       </div>
 
      
-      {/* Side Doodle */}
-      <div className="absolute bottom-10 right-6">
-        <img src="/doodles/bush.png"></img>
-      </div>
+      
 
     </section>
   );

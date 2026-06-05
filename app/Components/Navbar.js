@@ -138,21 +138,21 @@ export default function Navbar() {
               transition-all duration-500 ease-out
               pointer-events-auto
               ${
-                showPeek
-                  ? "translate-y-0 opacity-100"
-                  : "-translate-y-full opacity-0"
-              }
+  showPeek
+    ? "translate-y-0"
+    : "-translate-y-[120px]"
+}
             `}
             onMouseEnter={() => setShowPeek(false)}
           >
             {/* DRAGON */}
             <Image
-              src="/doodles/peek.png"
+              src="/doodles/ydrag-.png"
               alt="Peek Dragon"
               width={190}
               height={120}
               priority
-              className="animate-float"
+              className="my-[-80] animate-float rotate-180"
             />
           </div>
         </div>
