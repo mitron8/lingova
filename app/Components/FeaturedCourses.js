@@ -1,5 +1,6 @@
 "use client";
 
+
 const courses = [
   {
     title: "German A1",
@@ -27,6 +28,7 @@ const courses = [
 export default function FeaturedCourses() {
   return (
     <section className="relative overflow-hidden ">
+      
 
       {/* Top Left Doodle */}
       
@@ -39,9 +41,7 @@ export default function FeaturedCourses() {
         {/* Heading */}
         <div className="text-center mb-16">
 
-          <span className="text-[#E53935] font-bold text-lg">
-            OUR COURSES
-          </span>
+          
 
           <h2 className="mt-3 text-5xl md:text-7xl font-extrabold tracking-tight">
             Featured Courses

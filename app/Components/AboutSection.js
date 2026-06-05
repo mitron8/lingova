@@ -1,10 +1,11 @@
 "use client";
 
 import Group from "./Group";
+import Tail from "./Tail";
 
 export default function AboutSection() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#FEFAF3] flex items-center">
+    <section className="relative  min-h-[100vh] max-h-[150vh] overflow-hidden bg-[#FEFAF3] flex items-center">
 
       {/* Background Blobs */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-[#DFF4FF] rounded-full blur-3xl opacity-50" />
@@ -128,6 +129,7 @@ export default function AboutSection() {
         {/* Feature Pills */}
         
       </div>
+     
       
     </section>
   );

@@ -17,6 +17,7 @@ const page = () => {
       <Hero/>
       <Tail/>
       <AboutSection/>
+      
       <FeaturedCourses/>
       
       <WhyChooseUs/>
