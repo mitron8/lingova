@@ -31,19 +31,28 @@ const Testimonials = () => {
       
    
 
-      <Image
-        src="/doodles/ydrag-.png"
-        alt=""
-        width={80}
-        height={80}
-        className="absolute top-32 right-12 animate-float-delayed"
-      />
+     <Image
+  src="/doodles/ydrag-.png"
+  alt=""
+  width={200}
+  height={200}
+  className="
+    absolute
+    top-32
+    right-2
+    w-20
+    sm:w-28
+    md:w-36
+    lg:w-48
+    animate-float-delayed
+  "
+/>
 
       
 
      
 
-      {/* Heading  
+      {/* Heading  */}
       <div className="text-center max-w-3xl mx-auto">
         <span className="font-bold text-red-700 uppercase tracking-widest">
           Testimonials

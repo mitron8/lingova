@@ -145,7 +145,7 @@ export default function Navbar() {
             `}
             onMouseEnter={() => setShowPeek(false)}
           >
-            {/* DRAGON */}
+            {/* DRAGON
             <Image
               src="/doodles/ydrag-.png"
               alt="Peek Dragon"
@@ -153,7 +153,7 @@ export default function Navbar() {
               height={120}
               priority
               className="my-[-80] animate-float rotate-180"
-            />
+            /> */}
           </div>
         </div>
       </div>

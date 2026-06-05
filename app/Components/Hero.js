@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-h-[90vh] flex items-center px-6 md:px-12 lg:px-24 xl:px-40">
+    <section className="min-h-[70vh] flex items-center px-6 md:px-12 lg:px-24 xl:px-40">
       <div className="grid lg:grid-cols-2 items-center gap-12 w-full">
         
         {/* Left Content */}

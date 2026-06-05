@@ -17,11 +17,14 @@ const page = () => {
       <Hero/>
       <Tail/>
       <AboutSection/>
+      <Tail/>
       
       <FeaturedCourses/>
-      
+      <Tail/>
       <WhyChooseUs/>
+      <Tail/>
       <Testimonials/>
+      <Tail/>
       <CTA/>
       <Footer/>
       
