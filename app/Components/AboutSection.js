@@ -28,7 +28,7 @@ export default function AboutSection() {
           <img
             src="/doodles/bridge.png"
             alt="Bridge"
-            className="w-full h-[300px] max-w-4xl object-contain"
+            className="w-full h-[280px] max-w-4xl object-contain"
           />
         </div>
 
@@ -60,7 +60,7 @@ export default function AboutSection() {
           >
             {/* Tape */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="w-25 h-8 bg-[#F7D86F]/70 rounded-sm rotate-2  border-[#D4B24E]" />
+              <div className="w-25 h-8 bg-[#F7D86F] rounded-sm rotate-2  border-[#D4B24E]" />
             </div>
 
             <p className="text-xl md:text-2xl font-semibold leading-relaxed text-[#222]">
