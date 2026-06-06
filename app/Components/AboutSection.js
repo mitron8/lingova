@@ -37,15 +37,14 @@ export default function AboutSection() {
           {/* Dragon */}
           <div className="hidden lg:block absolute -right-16 bottom-0 z-30">
 <video
-  src="/video/Comp 1.mp4"
+  src="/video/yoo.webm"
   autoPlay
   loop
   muted
   playsInline
-  className="w-44 object-contain mix-blend-luminosity rounded-full"
->
-  Your browser does not support the video tag.
-</video>              
+  
+  className="w-44 object-contain rounded-full mix-blend-screen"
+/>              
             
           </div>
 

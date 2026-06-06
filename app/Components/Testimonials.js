@@ -39,6 +39,8 @@ const Testimonials = () => {
   className="
     absolute
     top-32
+    hidden
+    md:block
     right-2
     w-20
     sm:w-28
