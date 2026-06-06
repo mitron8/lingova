@@ -36,11 +36,17 @@ export default function AboutSection() {
         <div className="relative flex justify-center mb-12 z-20">
           {/* Dragon */}
           <div className="hidden lg:block absolute -right-16 bottom-0 z-30">
-            <img
-              src="/doodles/hellodrag.png"
-              alt="Dragon"
-              className="w-44 object-contain"
-            />
+<video
+  src="/video/Comp 1.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="w-44 object-contain mix-blend-luminosity rounded-full"
+>
+  Your browser does not support the video tag.
+</video>              
+            
           </div>
 
           {/* Main Card */}
