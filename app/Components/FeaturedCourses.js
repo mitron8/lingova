@@ -76,7 +76,7 @@ export default function FeaturedCourses() {
         animate={
           isInView
             ? {
-                x: [-400, -120, -120, -400],
+                x: [-500, -75, -75, -500],
                 y: [0, -4, 0, 0],
               }
             : {
@@ -93,7 +93,7 @@ export default function FeaturedCourses() {
         <img
           src="/doodles/hellodrag.png"
           alt="Dragon"
-          className="w-70 rotate-90"
+          className="w-40 rotate-90"
         />
       </motion.div>
 
